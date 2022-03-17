@@ -1,0 +1,18 @@
+name: nf.core eager
+identifier: WF_a27963.cc
+description: A fully reproducible and state-of-the-art ancient DNA analysis pipeline
+softwareVersion:
+  versionName: 2.4.2
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: eager.wdl
+repoName: nfcore-eager
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-eager/
+WebSite:
+- URL: https://github.com/nf-core/eager
+  name: nf-core/eager
